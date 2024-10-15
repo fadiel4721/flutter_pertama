@@ -140,6 +140,15 @@ void runLogic() {
     // ignore: avoid_print
     print('pertemuan ${i + 1}');
   }
+
+  var mahasiswa = 'Teknologi Informasi';
+
+  if (mahasiswa.isNotEmpty) {
+    print('Mahasiswa politeknik takumi');
+  }
+  else{
+    print('Bukan Mahasiswa Politeknik Takumi');
+  }
 }
 
 // Call this function when you want to run the non-Flutter logic
