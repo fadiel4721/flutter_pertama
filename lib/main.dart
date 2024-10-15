@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MyApp());
+  executeLogic(); // Panggil fungsi untuk menjalankan logika non-Flutter
 }
 
 class MyApp extends StatelessWidget {
@@ -122,4 +123,26 @@ class _MyHomePageState extends State<MyHomePage> {
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
+}
+
+// Non-Flutter logic
+void runLogic() {
+  // ignore: unused_local_variable
+  var penulis = 'Fadiel';
+  dynamic a = 100.1;
+  a = 'Fadiel Muhammad';
+  // ignore: avoid_print
+  print(a);
+
+  // ignore: unused_local_variable
+  List tes = [1, 2, 3, 4, 5, 'tes'];
+  for (int i = 0; i < 10; i++) {
+    // ignore: avoid_print
+    print('pertemuan ${i + 1}');
+  }
+}
+
+// Call this function when you want to run the non-Flutter logic
+void executeLogic() {
+  runLogic();
 }
