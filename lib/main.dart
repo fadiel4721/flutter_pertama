@@ -126,7 +126,7 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 
 // Non-Flutter logic
-void runLogic() {
+void pertemuan1() {
   // ignore: unused_local_variable
   var penulis = 'Fadiel';
   dynamic a = 100.1;
@@ -145,13 +145,50 @@ void runLogic() {
 
   if (mahasiswa.isNotEmpty) {
     print('Mahasiswa politeknik takumi');
-  }
-  else{
+  } else {
     print('Bukan Mahasiswa Politeknik Takumi');
   }
 }
 
+void pertemuan2() {
+  String bulanini = 'oktober';
+  print(bulanini);
+  cekBulanGanjilGenap(bulanini);
+}
+
+void cekBulanGanjilGenap(String bulan) {
+  // Daftar bulan genap dan ganjil
+  List<String> bulanGenap = [
+    'februari',
+    'april',
+    'juni',
+    'agustus',
+    'oktober',
+    'desember'
+  ];
+  List<String> bulanGanjil = [
+    'januari',
+    'maret',
+    'mei',
+    'juli',
+    'september',
+    'november'
+  ];
+
+  // Cek apakah bulan termasuk bulan genap atau ganjil
+  if (bulanGenap.contains(bulan.toLowerCase())) {
+    print('$bulan adalah bulan genap');
+  } else if (bulanGanjil.contains(bulan.toLowerCase())) {
+    print('$bulan adalah bulan ganjil');
+  } else {
+    print('Bulan tidak valid');
+  }
+
+  
+}
+
 // Call this function when you want to run the non-Flutter logic
 void executeLogic() {
-  runLogic();
+  pertemuan1();
+  pertemuan2();
 }
