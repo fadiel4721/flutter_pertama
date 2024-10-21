@@ -17,6 +17,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.1"
+  bottom_navbar_with_indicator:
+    dependency: "direct main"
+    description:
+      name: bottom_navbar_with_indicator
+      sha256: "23c5189c72db8652a8eee3adb630e594b7f66e1cb303802829a21cb35c68bc52"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.9"
   characters:
     dependency: transitive
     description:
@@ -62,6 +70,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_image_slideshow:
+    dependency: "direct main"
+    description:
+      name: flutter_image_slideshow
+      sha256: ed259d96aea889b6ddc2b641891c3b721ec8ed33e160f08f2ef11acf0438984f
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.6"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -75,6 +91,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  font_awesome_flutter:
+    dependency: "direct main"
+    description:
+      name: font_awesome_flutter
+      sha256: "275ff26905134bcb59417cf60ad979136f1f8257f2f449914b2c3e05bbb4cd6f"
+      url: "https://pub.dev"
+    source: hosted
+    version: "10.7.0"
   leak_tracker:
     dependency: transitive
     description:
@@ -144,6 +168,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.99"
+  sliding_clipped_nav_bar:
+    dependency: "direct main"
+    description:
+      name: sliding_clipped_nav_bar
+      sha256: f43ba9856d25515faa012f4f3763080f8a93fa6edf11a3c3ca358b8982de6411
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.1"
   source_span:
     dependency: transitive
     description:

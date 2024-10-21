@@ -34,12 +34,16 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
+  font_awesome_flutter: ^10.5.0
   cupertino_icons: ^1.0.8
+  bottom_navbar_with_indicator: ^0.0.9
+  sliding_clipped_nav_bar: ^3.1.1
+  flutter_image_slideshow: ^0.1.6
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+   
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
@@ -59,7 +63,42 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - images/logo_dana.png
+    - images/dana_footer.png
+    - images/history.png
+    - images/user.png
+    - images/wallet.png
+    - images/play_store.png
+    - images/dana_deals.png
+    - images/dana_goals.png
+    - images/emas.png
+    - images/voucher_rewards.png
+    - images/dana_kaget.png
+    - images/sungjinwoo.jpg
+    - images/sukuna.jpg
+    - images/solo.jpg
+    - images/telkomsel_logo.png
+    - images/promo_icon.png
+    - images/spaylater_icon.png
+    - images/ongkir.png
+    - images/mobile.png
+    - images/shopee.png
+    - images/shopping-bag.png
+    - images/giftbox.png
+    - images/shopefood.png
+    - images/lokal.png
+    - images/transfer.png
+    - images/paylater.png
+    - images/grid.png
+    - images/pi.jpg
+    - images/product1.jpg
+    - images/product2.jpg
+    - images/product3.jpg
+    - images/product4.jpg
+    - images/product5.jpg
+
+
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
